@@ -15,13 +15,13 @@ public class Matsuoka{
 				case 8:
 				case 10:
 				case 12:
-					System.out.println(month+" "+month+"は31日まであります");
+					System.out.println("月>>"+month+" "+month+"は31日まであります");
 					break;
 				case 2:
-					System.out.println(month+" "+month+"は28日まであります");
+					System.out.println("月>>"+month+" "+month+"は28日まであります");
 					break;
 				default:
-					System.out.println(month+" "+month+"は30日まであります");
+					System.out.println("月>>"+month+" "+month+"は30日まであります");
 					break;
 			}
 		}
