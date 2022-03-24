@@ -4,7 +4,6 @@ public class SasakiMain{
 		System.out.print("月>>");
 		int month = new Scanner(System.in).nextInt();
 
-		int day;
 		switch(month){
 			case 1:
 			case 3:
