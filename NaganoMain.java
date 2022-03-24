@@ -15,6 +15,7 @@ public class NaganoMain{
 				break;
 			case 2:
 				System.out.println(mon + "月は28日あります");
+				break;
 			case 4:
 			case 6:
 			case 9:
