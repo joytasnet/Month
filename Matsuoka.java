@@ -4,7 +4,7 @@ public class Matsuoka{
 		int month;
 		System.out.print("月を入力>>");
 		month=new Scanner(System.in).nextInt();
-		if(month>12){
+		if(month>12 || month<1){
 			System.out.println(month+" "+month+"そんな月はありません");
 		}else{
 			switch(month){	
