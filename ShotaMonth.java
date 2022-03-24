@@ -2,9 +2,9 @@ import java.util.*;
 public class ShotaMonth{
 	public static void main(String[] args){
 		System.out.println("月を入力してください");
-		int monthA =new Scanner(System.in).nextInt();
+		int month =new Scanner(System.in).nextInt();
 
-		switch(monthA){
+		switch(month){
 			case 1:
 			case 3:
 			case 5:
@@ -12,16 +12,19 @@ public class ShotaMonth{
 			case 8:
 			case 10:
 			case 12:
-				System.out.println("31日まであります");
+				System.out.println(month+"月は31日まであります");
 				break;
 			case 2:
-				System.out.println("28日まであります");
+				System.out.println(month+"月は28日まであります");
 				break;
-			case 14:
-				System.out.println("そんな月はありません");
+			case 4:
+			case 6:
+			case 9:
+			case 11:
+				System.out.println(month+"月は30日まであります");
 				break;
 			default :
-				System.out.println("それ以外です");
+				System.out.println("そんな月はありません");
 				break;
 		}
 	}
