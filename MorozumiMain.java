@@ -27,7 +27,7 @@ public class MorozumiMain{
 					System.out.println(month + "月は28日まであります");
 					break;
 				default:
-					System.out.println("月は30日まであります");
+					System.out.println(month + "月は30日まであります");
 					break;
 			}
 		}
