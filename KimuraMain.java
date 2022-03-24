@@ -4,7 +4,7 @@ public class KimuraMain{
 		System.out.print("月>>");
 		int input = new Scanner(System.in).nextInt();
 
-		if(input <=12){
+		if(input <=12 && input >0){
 			switch (input){
 				case 1:
 				case 3:
